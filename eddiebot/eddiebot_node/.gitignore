@@ -1,2 +1,7 @@
 *.pyc
 msg_gen/
+/cfg/*
+/src/eddiebot_node/msg/*
+/src/eddiebot_node/srv/*
+/src/eddiebot_node/cfg/*
+/srv_gen/*
