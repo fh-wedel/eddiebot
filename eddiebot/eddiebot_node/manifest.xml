@@ -14,7 +14,7 @@
   <depend package="nav_msgs"/>
   <depend package="geometry_msgs"/>
   <depend package="diagnostic_msgs"/>
-  <depend package="kdl"/>
+  <depend package="orocos_kdl"/>
   <depend package="dynamic_reconfigure"/>
   <export>
     <rosdoc config="rosdoc.yaml" />
