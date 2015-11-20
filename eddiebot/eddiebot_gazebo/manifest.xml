@@ -1,0 +1,11 @@
+<package>
+  <description brief="eddiebot_gazebo">
+
+     eddiebot_gazebo provides roslaunch scripts for simulating eddiebot in gazebo. 
+
+  </description>
+  <author>Ulrich Hoffmann</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url></url>
+</package>

@@ -2,8 +2,8 @@
 <robot name="eddiebot_hardware" xmlns:xacro="http://ros.org/wiki/xacro">
   <property name="M_PI" value="3.14159"/>
 
-  <include filename="$(find eddiebot_description)/urdf/gazebo.urdf.xacro"/>
-  <include filename="$(find eddiebot_description)/urdf/eddiebot_calibration.xacro" />
+  <xacro:include filename="$(find eddiebot_description)/urdf/gazebo.urdf.xacro"/>
+  <xacro:include filename="$(find eddiebot_description)/urdf/eddiebot_calibration.xacro" />
 
 <xacro:macro name="eddiebot_kinect">
   <joint name="base_camera_joint" type="fixed">

@@ -10,10 +10,10 @@ Eddiebot with ASUS Xtion PRO camera, instead of Kinect
 -->
     
     <!-- Included URDF Files -->
-    <include filename="$(find eddiebot_description)/urdf/eddiebot_body.urdf.xacro" />
-    <include filename="$(find eddiebot_description)/urdf/eddiebot_hardware.urdf.xacro" />
-    <include filename="$(find eddiebot_description)/urdf/eddiebot_calibration.xacro" />
-    <include filename="$(find eddiebot_description)/urdf/asus_xtion_pro.urdf.xacro" />
+    <xacro:include filename="$(find eddiebot_description)/urdf/eddiebot_body.urdf.xacro" />
+    <xacro:include filename="$(find eddiebot_description)/urdf/eddiebot_hardware.urdf.xacro" />
+    <xacro:include filename="$(find eddiebot_description)/urdf/eddiebot_calibration.xacro" />
+    <xacro:include filename="$(find eddiebot_description)/urdf/asus_xtion_pro.urdf.xacro" />
 
     <!-- Body of EddieBot, with plates, standoffs and Create (including sim sensors) -->
     <eddiebot_body/>
